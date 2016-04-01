@@ -1,28 +1,19 @@
-﻿빌드 시작: 2016-04-01 오전 10:42:54
-     1>2 노드의 "D:\네트워크\test\sample1\sample1\sample1.vcxproj" 프로젝트(Build 대상)입니다.
+﻿빌드 시작: 2016-04-01 오후 3:13:25
+     1>2 노드의 "D:\network\project\Network\sample1\sample1.vcxproj" 프로젝트(Build 대상)입니다.
      1>ClCompile:
          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D HAVE_REMOTE /D WPCAP /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt sample1.cpp
          sample1.cpp
-     1>d:\네트워크\test\sample1\sample1\sample1.cpp(100): warning C4101: 'timestr' :참조되지 않은 지역 변수입니다.
-     1>d:\네트워크\test\sample1\sample1\sample1.cpp(103): warning C4101: 'local_tv_sec' :참조되지 않은 지역 변수입니다.
-     1>d:\네트워크\test\sample1\sample1\sample1.cpp(99): warning C4101: 'ltime' :참조되지 않은 지역 변수입니다.
-     1>d:\네트워크\test\sample1\sample1\sample1.cpp(166): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : 'sprintf' 선언을 참조하십시오.
-     1>d:\네트워크\test\sample1\sample1\sample1.cpp(167): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : 'strcat' 선언을 참조하십시오.
-     1>d:\네트워크\test\sample1\sample1\sample1.cpp(170): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : 'sprintf' 선언을 참조하십시오.
-     1>d:\네트워크\test\sample1\sample1\sample1.cpp(171): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : 'strcat' 선언을 참조하십시오.
-     1>d:\네트워크\test\sample1\sample1\sample1.cpp(173): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : 'strcat' 선언을 참조하십시오.
-     1>d:\네트워크\test\sample1\sample1\sample1.cpp(174): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : 'strcat' 선언을 참조하십시오.
+     1>d:\network\project\network\sample1\sample1.cpp(56): warning C4091: 'typedef ' : 변수를 선언하지 않으면 'udp_header' 왼쪽은 무시됩니다.
+     1>d:\network\project\network\sample1\sample1.cpp(146): warning C4101: 'timestr' :참조되지 않은 지역 변수입니다.
+     1>d:\network\project\network\sample1\sample1.cpp(147): warning C4101: 'i' :참조되지 않은 지역 변수입니다.
+     1>d:\network\project\network\sample1\sample1.cpp(147): warning C4101: 'k' :참조되지 않은 지역 변수입니다.
+     1>d:\network\project\network\sample1\sample1.cpp(145): warning C4101: 'ltime' :참조되지 않은 지역 변수입니다.
+     1>d:\network\project\network\sample1\sample1.cpp(147): warning C4101: 'j' :참조되지 않은 지역 변수입니다.
        Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\네트워크\test\sample1\Debug\sample1.exe" /INCREMENTAL /NOLOGO wpcap.lib ws2_32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\네트워크\test\sample1\Debug\sample1.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\네트워크\test\sample1\Debug\sample1.lib" /MACHINE:X86 Debug\sample1.obj
-         sample1.vcxproj -> D:\네트워크\test\sample1\Debug\sample1.exe
-     1>"D:\네트워크\test\sample1\sample1\sample1.vcxproj" 프로젝트를 빌드했습니다(Build 대상).
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\network\project\Network\Debug\sample1.exe" /INCREMENTAL /NOLOGO wpcap.lib ws2_32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\network\project\Network\Debug\sample1.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\network\project\Network\Debug\sample1.lib" /MACHINE:X86 Debug\sample1.obj
+         sample1.vcxproj -> D:\network\project\Network\Debug\sample1.exe
+     1>"D:\network\project\Network\sample1\sample1.vcxproj" 프로젝트를 빌드했습니다(Build 대상).
 
 빌드했습니다.
 
-경과 시간: 00:00:00.46
+경과 시간: 00:00:00.41
